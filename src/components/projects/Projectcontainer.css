@@ -1,0 +1,55 @@
+.project-full {
+    background-color: lightslategrey;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.project-heading {
+    padding-top: 200px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.project-img {
+    width: 16rem;
+    height: 10rem;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+.buttons {
+    background-color: whitesmoke;
+    border: 0.5px solid;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: var(--size-fluid-2);
+    --size-fluid-2: clamp(1rem, 2vw, 1.5rem);
+    padding-top: 30px;
+    margin: auto;
+    max-width: 1000px;
+    color: lightslategrey;
+
+}
+
+.project-1 {
+    border: 1px solid;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    background-color: black;
+    max-width: 16rem;
+
+}
+
+.project-1:hover {
+    transform: scale(1.09);
+    background-color: lightcyan;
+    color: black;
+}

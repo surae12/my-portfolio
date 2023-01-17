@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+.header {
+    display: flex;
+    color: white;
+    background-color: black;
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+
+}
+
+
+.header_left {
+    flex: 0.6;
+}
+
+.header_left>h1 {
+    text-align: center;
+    padding: 45px 0;
+    font-family: 'Bonheur Royale', cursive;
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.header_left>h1>span {
+    color: lightslategrey;
+}
+
+.header_right {
+    display: flex;
+    flex: 0.4%;
+    font-size: 20px;
+    font-weight: 250px;
+
+}
+
+.header_right>h4 {
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    font-family: "crimson text", serif;
+    padding: 20px 0;
+    letter-spacing: 1px;
+}
+
+
+.header_right>a>h4:hover {
+    transform: scale(1.09);
+    background-color: lightslategrey;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 1rem;
+    letter-spacing: 1px;
+    font-family: "crimson text", serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* .right-button {
+    background-color: lightslategrey;
+    color: black;
+    padding: 5px 20px !important;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 18px;
+} */
+
+.right-button {
+    border: 2px solid currentColor;
+    border-radius: 2.5rem;
+    color: white;
+    font-family: "crimson text", serif;
+    overflow: hidden;
+    padding: 5px 20px !important;
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+}
+
+.right-button:after {
+    background-color: lightslategrey;
+    border-radius: 1rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.2s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+}
+
+.right-button:hover:after {
+    transform: translate(0, 0);
+}
+
+.right-button:hover {
+    border: 2px solid transparent;
+    color: black;
+    transform: scale(1.05);
+    will-change: transform;
+}
