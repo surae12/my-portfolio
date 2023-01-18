@@ -1,4 +1,5 @@
  .contact {
+     padding-bottom: 200px;
      text-align: center;
      display: flex;
      flex-direction: column;
@@ -6,19 +7,19 @@
      color: black;
      align-items: center;
      background-color: lightslategrey;
-     height: 100vh;
+     height: auto;
      margin: auto;
  }
 
  .contact-heading {
-     padding-top: 50px;
-     margin-bottom: 100px;
+     padding-top: 200px;
+     padding-bottom: 100px;
 
  }
 
  .contact-container {
      border: 1px solid black;
-     width: 600px;
+     width: fit-content;
      height: 200px;
      display: flex;
      flex-direction: column;
@@ -27,7 +28,7 @@
      padding: 30px;
      background-color: black;
      border-radius: 1rem;
-     margin-top: 5px;
+
  }
 
  .contact-container>p {
@@ -51,4 +52,26 @@
  .contact-icons>a>.MuiIconButton-root :hover {
      transform: scale(1.15);
      box-shadow: lightslategrey;
+ }
+
+ @media screen and (max-width:600px) {
+     .contact-container {
+         padding-top: 20px;
+         height: auto;
+         width: auto;
+     }
+
+     .contact-container {
+         margin-top: 5px;
+     }
+
+     .contact {
+         padding-bottom: 30px;
+
+     }
+
+     .contact-heading {
+         padding-bottom: 50px;
+         padding-top: 50px;
+     }
  }

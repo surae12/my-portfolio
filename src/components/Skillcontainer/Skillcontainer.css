@@ -48,3 +48,14 @@
     color: black;
     border: 2px solid black;
 }
+
+@media screen and (max-width:600px) {
+    .skillcontainer {
+        padding-top: 20px;
+    }
+
+    .skillcontainer-full {
+        padding-top: 50px;
+    }
+
+}

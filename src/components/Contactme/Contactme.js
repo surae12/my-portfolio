@@ -14,19 +14,19 @@ const Contactme = () => {
                 </p>
 
                 <div className='contact-icons' >
-                    <a href=''>
+                    <a href='https://www.facebook.com/profile.php?id=100002897153886' target="_blank">
                         <IconButton>
                             <Facebook />
 
                         </IconButton>
                     </a>
-                    <a href=''>
+                    <a href='https://www.instagram.com/_s_u_r_a_e_/' target="_blank">
                         <IconButton>
                             <Instagram />
 
                         </IconButton>
                     </a>
-                    <a href='http://www.linkedin.com/in/sureshkumar1220'>
+                    <a href='http://www.linkedin.com/in/sureshkumar1220' target="_blank">
                         <IconButton>
                             <LinkedIn />
                         </IconButton>

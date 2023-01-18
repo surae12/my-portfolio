@@ -19,7 +19,7 @@ const Projectcontainer = () => {
                                 <Card.Text>
                                     Some quick example text to build on the card title
                                 </Card.Text>
-                                <a href='https://stupendous-jalebi-cc60c1.netlify.app/'><Button variant="primary" className='buttons'>Wanna chech</Button></a>
+                                <a href='https://stupendous-jalebi-cc60c1.netlify.app/' target="_blank"><Button variant="primary" className='buttons'>Wanna chech</Button></a>
                             </Card.Body>
                         </Card>
                     </div>

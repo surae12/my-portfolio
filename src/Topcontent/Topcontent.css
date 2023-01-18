@@ -4,7 +4,7 @@
 
 .topcontent {
     color: black;
-    position: relative;
+
     padding-top: 300px;
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@
 }
 
 .last-p {
-    width: clamp(414px, 540px, 600px);
+    max-width: 500px;
     margin: 0;
     padding: 0;
     line-height: 1.5rem;
@@ -114,4 +114,18 @@
     color: black;
     transform: scale(1.05);
     will-change: transform;
+}
+
+@media screen and (max-width:600px) {
+    .topcontent {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .profile-pic {
+        align-items: center;
+        margin-top: 40px;
+        height: 350px;
+        width: 300px;
+    }
 }
