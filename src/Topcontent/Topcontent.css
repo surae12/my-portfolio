@@ -89,7 +89,7 @@
 }
 
 .topcontent-downloadbutton:after {
-    background-color: white;
+    background-color: lightcyan;
     border-radius: 1rem;
     content: '';
     display: block;

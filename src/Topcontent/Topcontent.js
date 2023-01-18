@@ -12,8 +12,8 @@ const Topcontent = () => {
                 <h1 className='first-h'>Suresh...! </h1>
                 <h1 className='last-h'>Full Stack Developer [MERN]</h1>
                 <p className='last-p'>Passionate about web development and seeking an opportunity to grow in the software industry. My goal is to achieve a high position by providing satisfactory service to the company.</p>
-                <a>
-                    <button className='topcontent-downloadbutton'>Download CV <span className='download-arrow'>📁</span></button>
+                <a href='https://app.luminpdf.com/viewer/63c7946d88bb7c8962abd812'>
+                    <button className='topcontent-downloadbutton'> my CV <span className='download-arrow'>📁</span></button>
                 </a>
 
 
