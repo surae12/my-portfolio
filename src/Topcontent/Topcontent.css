@@ -116,10 +116,15 @@
     will-change: transform;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:839px) {
     .topcontent {
         flex-direction: column;
         padding-top: 50px;
+    }
+
+    .topcontent_container {
+        align-items: center;
+        max-width: fit-content;
     }
 
     .profile-pic {

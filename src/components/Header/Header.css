@@ -60,7 +60,7 @@
     cursor: pointer;
 }
 
-header .nav-btn {
+.header .nav-btn {
     padding: 5px;
     cursor: pointer;
     background: transparent;
@@ -182,11 +182,15 @@ header .nav-btn {
     }
 
     .header .nav-close-btn {
-        position: absolute;
-        top: 2rem;
-        right: 2rem;
+        position: absolute !important;
+        top: 2rem !important;
+        right: 2rem !important;
     }
 
 
+    .header .nav-btn {
 
+        display: contents;
+
+    }
 }
